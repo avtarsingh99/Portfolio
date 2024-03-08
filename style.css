@@ -9,7 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #FAF0E6;
+  background-color: #FFFBF5;
 }
 
 html {
@@ -37,7 +37,8 @@ nav,
 nav {
   justify-content: space-around;
   align-items: center;
-  height: 17vh;
+  height: 15vh;
+  background-color: #7743DB;
 }
 
 .nav-links {
@@ -53,14 +54,14 @@ a {
 }
 
 a:hover {
-  color: grey;
+  color: white;
   text-decoration: underline;
   text-underline-offset: 1rem;
   text-decoration-color: rgb(181, 181, 181);
 }
 
 .logo {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .logo:hover {
@@ -99,10 +100,13 @@ a:hover {
   top: 100%;
   right: 0;
   background-color: white;
-  width: fit-content;
-  max-height: 0;
+  border-radius: 10px;
+  width: 200px;
+  height: 250px;
+  max-height: 0px;
   overflow: hidden;
-  transition: all 0.3 ease-in-out;
+  transition: all 200ms ease-in-out;
+  box-shadow: 5px 5px rgba(200, 200, 200, 0.1);
 }
 
 .menu-links a {
@@ -315,20 +319,20 @@ section {
   margin: auto 0;
 }
 
-/* EXPERIENCE SECTION */
+/* skills SECTION */
 
-#experience {
+#skills {
   position: relative;
 }
 
-.experience-sub-title {
+.skills-sub-title {
   color: rgb(85, 85, 85);
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
 }
 
-.experience-details-container {
+.skills-details-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
